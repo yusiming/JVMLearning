@@ -4,6 +4,7 @@ package memoryModel.jvmStack;
  * 模拟虚拟机栈OutOfMemoryError异常
  * 使用递归函数的形式是无法造成OOM异常的，
  * 但是我们可以通过不断创建线程调用方法来产生OOM异常
+ * 使用的JVM参数：-Xss2M
  *
  * @Auther yusiming
  * @Date 2019/2/25 21:44
