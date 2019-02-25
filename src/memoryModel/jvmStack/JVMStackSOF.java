@@ -1,4 +1,4 @@
-package memoryModel;
+package memoryModel.jvmStack;
 
 /**
  * 模拟JVM栈溢出错误，使用如下方法只会抛出StackOverFlowError
@@ -7,7 +7,7 @@ package memoryModel;
  * @Auther yusiming
  * @Date 2019/2/25 21:25
  */
-public class JVMStackOOM {
+public class JVMStackSOF {
     private int length = 1;
 
     private void fun() {
@@ -20,7 +20,7 @@ public class JVMStackOOM {
      * Exception in thread "main" java.lang.StackOverflowError
      */
     public static void main(String[] args) {
-        JVMStackOOM jvmStackOOM = new JVMStackOOM();
+        JVMStackSOF jvmStackOOM = new JVMStackSOF();
         jvmStackOOM.fun();
     }
 }
