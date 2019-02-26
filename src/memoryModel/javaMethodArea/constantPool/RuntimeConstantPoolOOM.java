@@ -1,4 +1,4 @@
-package memoryModel.constantPool;
+package memoryModel.javaMethodArea.constantPool;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package memoryModel.constantPool;
+package memoryModel.javaMethodArea.constantPool;
 
 /**
  * 测试String类的intern方法
